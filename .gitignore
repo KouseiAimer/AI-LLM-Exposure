@@ -1,0 +1,69 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw, intermediate and generated data
+*.csv
+*.xlsx
+*.xls
+*.dta
+*.sav
+*.por
+*.rds
+*.rda
+*.zip
+*.7z
+*.rar
+*.parquet
+*.feather
+
+# Figures and binary outputs
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# LaTeX and report outputs
+*.tex
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.toc
+*.synctex.gz
+
+# Project report/result directories
+final-report/
+final-Appendex/
+References/
+CGSS_clean/
+Crosswork/
+人工智能-大语言模型技术”暴露指数数据/
+长三角数据/
+
+*/report/
+*/report-tex/
+*/Appendex/
+*/results/
+*/docs/
+*/notes/
+*.md
+
+# Keep repository documentation
+!/README.md
