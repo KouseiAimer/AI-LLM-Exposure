@@ -1,6 +1,8 @@
 # AI-LLM Exposure 复现与扩展代码
 
-本仓库保存课程项目中用于复现与扩展“中国 AI-LLM 职业暴露度”研究的代码。仓库仅提交代码和必要说明文件；原始数据、清洗后数据、图表、表格、PDF、LaTeX 报告和其他报告性材料不纳入版本管理。
+
+本项目为复旦大学《社会科学数据挖掘》课程的项目报告主要为对文章《中国人工智能技术暴露度的测算  及其对劳动需求的影响》复现与扩展。
+本仓库保存课程项目中用于复现与扩展“中国 AI-LLM 职业暴露度”研究的代码。仓库仅提交代码和必要说明文件；
 
 ## 仓库结构
 
@@ -53,8 +55,8 @@ CGSS-expansion/
 3. `Data cleaning/clean_cgss_ai_exposure.py`
 4. `CGSS-expansion/code/run_cgss_soc_analysis.py`
 
-CGSS 相关分析依赖职业映射和清洗结果，因此应在数据清洗完成后再运行。
+CGSS 相关分析依赖职业映射和清洗结果，因此应在数据清洗完成后再运行。  
 
 ## 说明
 
-本仓库中的模型包括 ANOVA、职业固定效应趋势模型、Beta 收敛检验、K-means 聚类、分数 Logit、PPML、Double/Debiased Machine Learning 和 RIF 分位数回归。相关报告正文、技术附录和最终 PDF 不在本仓库中提交。
+本仓库中的模型包括 ANOVA、职业固定效应趋势模型、Beta 收敛检验、K-means 聚类、分数 Logit、PPML、Double/Debiased Machine Learning 和 RIF 分位数回归。相关报告正文、与附录同样附在仓库中。
